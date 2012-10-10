@@ -1,0 +1,220 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F75CCB1C1613F47400A313E6 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F75CCB1A1613F47400A313E6 /* test.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F75CCB051613F43200A313E6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F75CCB071613F43200A313E6 /* OrangeMIPSEmu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OrangeMIPSEmu; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75CCB141613F47400A313E6 /* config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = config.hpp; sourceTree = "<group>"; };
+		F75CCB151613F47400A313E6 /* executorSingleton.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = executorSingleton.hpp; sourceTree = "<group>"; };
+		F75CCB161613F47400A313E6 /* instructionTypes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = instructionTypes.hpp; sourceTree = "<group>"; };
+		F75CCB171613F47400A313E6 /* memorySingleton.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = memorySingleton.hpp; sourceTree = "<group>"; };
+		F75CCB181613F47400A313E6 /* registerSingleton.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = registerSingleton.hpp; sourceTree = "<group>"; };
+		F75CCB1A1613F47400A313E6 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		F7A8ECA6161A17DA00545269 /* fileSingleton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fileSingleton.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F75CCB041613F43200A313E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F75CCAFC1613F43200A313E6 = {
+			isa = PBXGroup;
+			children = (
+				F75CCB0A1613F43200A313E6 /* OrangeMIPSEmu */,
+				F75CCB081613F43200A313E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F75CCB081613F43200A313E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F75CCB071613F43200A313E6 /* OrangeMIPSEmu */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F75CCB0A1613F43200A313E6 /* OrangeMIPSEmu */ = {
+			isa = PBXGroup;
+			children = (
+				F75CCB141613F47400A313E6 /* config.hpp */,
+				F75CCB151613F47400A313E6 /* executorSingleton.hpp */,
+				F75CCB161613F47400A313E6 /* instructionTypes.hpp */,
+				F75CCB171613F47400A313E6 /* memorySingleton.hpp */,
+				F75CCB181613F47400A313E6 /* registerSingleton.hpp */,
+				F7A8ECA6161A17DA00545269 /* fileSingleton.hpp */,
+				F75CCB1A1613F47400A313E6 /* test.cpp */,
+			);
+			path = OrangeMIPSEmu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F75CCB061613F43200A313E6 /* OrangeMIPSEmu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75CCB111613F43200A313E6 /* Build configuration list for PBXNativeTarget "OrangeMIPSEmu" */;
+			buildPhases = (
+				F75CCB031613F43200A313E6 /* Sources */,
+				F75CCB041613F43200A313E6 /* Frameworks */,
+				F75CCB051613F43200A313E6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrangeMIPSEmu;
+			productName = OrangeMIPSEmu;
+			productReference = F75CCB071613F43200A313E6 /* OrangeMIPSEmu */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F75CCAFE1613F43200A313E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Orange Bytes";
+			};
+			buildConfigurationList = F75CCB011613F43200A313E6 /* Build configuration list for PBXProject "OrangeMIPSEmu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F75CCAFC1613F43200A313E6;
+			productRefGroup = F75CCB081613F43200A313E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F75CCB061613F43200A313E6 /* OrangeMIPSEmu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F75CCB031613F43200A313E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75CCB1C1613F47400A313E6 /* test.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F75CCB0F1613F43200A313E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F75CCB101613F43200A313E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F75CCB121613F43200A313E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F75CCB131613F43200A313E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F75CCB011613F43200A313E6 /* Build configuration list for PBXProject "OrangeMIPSEmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75CCB0F1613F43200A313E6 /* Debug */,
+				F75CCB101613F43200A313E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75CCB111613F43200A313E6 /* Build configuration list for PBXNativeTarget "OrangeMIPSEmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75CCB121613F43200A313E6 /* Debug */,
+				F75CCB131613F43200A313E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F75CCAFE1613F43200A313E6 /* Project object */;
+}
